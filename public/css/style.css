@@ -1,0 +1,176 @@
+html, body {
+  overflow:auto;
+  margin:0px;
+  padding:0px;
+}
+section{
+  margin: 0px;
+  padding: 0px;
+}  h1{
+    text-align: center;
+    font-family: alice;
+    font-size: 70px;
+}
+
+p {
+  color: white;
+  margin: 5%;
+  text-align: justify;
+}
+
+/* SECTION LOGO */
+#logoTitle {
+  text-align: center;
+  position: relative;
+  font-size: 120px;
+  color: hotpink;
+  top: 180px;
+}
+#joue {
+  color: black;
+}
+#leftDiv {
+  background: indianred;
+  height:  250px;
+  opacity: 0.2;
+}
+#rightDiv {
+  background: black;
+  height:  250px;
+  opacity: 0.2;
+}
+/* SECTION CIE */
+  #header {
+    padding: 0px;
+    z-index: 10000;
+    width: 100%;
+    visibility: hidden;
+    position: fixed;
+  }
+  #nav {
+    z-index: 400;
+    justify-content: space-around;
+  }
+  #cieSection {
+      padding: 0px;
+      visibility: hidden;
+  }
+  .textCieContent, .textCreationContent, #perso1, #perso2{
+    background-color: indianred;
+   border: 2px solid black;
+   border-radius: 6px;
+}
+.spinner-grow {
+  animation-duration: 2s;
+}
+/* DISTRIBUTION SESSION */
+.artistName {
+  color: white;
+}
+#distributionSection {
+  position: relative;
+  top: -300px;
+  visibility: hidden;
+  min-height: 1000px;
+  margin: 0px;
+  padding: 0px;
+}
+.scroll {
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+#scrollLeft{
+  background: darkgrey;
+}
+#scrollRight{
+  background: indianred;
+}
+#distributionTitle {
+  z-index: 3;
+  color: white;
+  position: relative;
+  font-size: 90px;
+  top: 220px;
+}
+.img-thumbnail{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  height: 400px;
+}
+/* CREATION SECTION */
+#creationTitle {
+  position: relative;
+  top: -60px;
+}
+#enquete {
+  position: relative;
+  top: -30px;
+}
+.creationContent {
+  position: relative;
+  top: -60px;
+  padding: 0px;
+}
+#creationSection{
+  visibility: hidden;
+}
+#carouselExampleIndicators {
+  position: relative;
+  top: 70px;
+}
+#personnage {
+  position: relative;
+  top: 150px;
+}
+.persoTitle {
+  color: white;
+  margin:20px;
+  text-align: center;
+}
+.perso{
+  position: relative;
+  top: 200px;
+  margin: 40px;
+  padding-bottom: 20px;
+  visibility: hidden;
+  }
+  #perso2 {
+      background: darkgrey;
+        visibility: hidden;
+        animation-duration: 2s;
+  }
+  #perso1 {
+    visibility: hidden;
+    animation-duration: 1s;
+  }
+
+/* CONTACT */
+#ancreContact {
+  position: relative;
+  top:380px;
+}
+#titleContact {
+  text-decoration: underline;
+
+}
+.contactTextContent {
+  color: white;
+  position: relative;
+  top: 380px;
+}
+.contactImg {
+  width: 100%;
+}
+#mail {
+  color: midnightblue;
+  text-decoration: underline;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;
+}
