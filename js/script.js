@@ -1,4 +1,4 @@
-// test git
+// test git test dans un autre dossier
 
 $(function () {
         $(window).scroll(function () {
